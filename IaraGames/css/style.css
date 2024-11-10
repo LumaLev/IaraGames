@@ -2,4 +2,43 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+background-color: #2B2031;
+}
+
+:root {
+    --color-verde: #5DB6AE;
+    --color-marrom: #2B2031;
+    --color-roxo: #423D65;
+    --color-amarelo: #DBF38B;
+}
+
+.text-amarelo {
+    color: var(--color-amarelo) !important;
+}
+
+.table-bg {
+    width: 100%;
+    color: white;
+}
+
+.white {
+    border-bottom: solid 1px white; 
+}
+
+td, th{ 
+    padding: 15px;
+}
+
+.status {
+    color: rgb(17, 255, 0);
+}
+
+.status-bg{
+    background-color: rgba(17, 255, 0, 0.278);
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
 }
